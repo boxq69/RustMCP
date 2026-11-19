@@ -1,0 +1,43 @@
+[project]
+name = "RustMCP"
+version = "0.1.0"
+description = "MCP server that lets AI agents manage a Rust game server over WebRCON."
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "boxq69", email = "boxq.gg@gmail.com" }
+]
+keywords = ["mcp", "rust", "rcon", "webrcon", "oxide", "carbon", "game-server", "ai-agent"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: System Administrators",
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment",
+    "Topic :: System :: Systems Administration",
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=2.3.0,<3",
+    "python-dotenv>=1",
+    "websockets>=17.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/boxq69/RustMCP"
+Issues = "https://github.com/boxq69/RustMCP/issues"
+
+[project.scripts]
+rustmcp = "rustmcp:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.5",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
