@@ -1,6 +1,6 @@
 [project]
 name = "RustMCP"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server that lets AI agents manage a Rust game server over WebRCON."
 readme = "README.md"
 license = "MIT"
@@ -12,7 +12,9 @@ keywords = ["mcp", "rust", "rcon", "webrcon", "oxide", "carbon", "game-server", 
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: System Administrators",
-    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Topic :: Games/Entertainment",
     "Topic :: System :: Systems Administration",
 ]

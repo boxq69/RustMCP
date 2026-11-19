@@ -1,4 +1,7 @@
 # RustMCP
+[![PyPI](https://img.shields.io/pypi/v/rustmcp?cacheSeconds=3600)](https://pypi.org/project/RustMCP/)
+[![Python](https://img.shields.io/pypi/pyversions/rustmcp?cacheSeconds=3600)](https://pypi.org/project/RustMCP/)
+[![Downloads](https://img.shields.io/pypi/dm/rustmcp?cacheSeconds=3600)](https://pypistats.org/packages/rustmcp)
 
 MCP server that lets an AI agent (Claude, Cursor, Codex) manage a
 Rust game server over WebRCON.
