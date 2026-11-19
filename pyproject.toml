@@ -28,7 +28,7 @@ Homepage = "https://github.com/boxq69/RustMCP"
 Issues = "https://github.com/boxq69/RustMCP/issues"
 
 [project.scripts]
-rustmcp = "rustmcp:main"
+RustMCP = "rustmcp:main"
 
 [build-system]
 requires = ["uv_build>=0.13.8,<0.14.0"]
