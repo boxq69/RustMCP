@@ -1,4 +1,4 @@
-# RustMCP
+# ![logo](https://cdn.boxq.dev/RustMCP/RustMCP-Logo-24.png) [RustMCP](https://boxq.dev/rustmcp) 
 [![PyPI](https://img.shields.io/pypi/v/rustmcp?cacheSeconds=3600)](https://pypi.org/project/RustMCP/)
 [![Python](https://img.shields.io/pypi/pyversions/rustmcp?cacheSeconds=3600)](https://pypi.org/project/RustMCP/)
 [![Downloads](https://img.shields.io/pypi/dm/rustmcp?cacheSeconds=3600)](https://pypistats.org/packages/rustmcp)
@@ -29,6 +29,7 @@ Even with `ALLOW_RAW_COMMANDS=true`, commands like `quit`, `restart`,
 
 ## Setup
 
+You can also configure command [here](https://boxq.dev/rustmcp)
 Replace the IP, port and password with your server's RCON settings.
 
 **Claude Code**
